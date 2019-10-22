@@ -2,7 +2,7 @@ import {FETCH_PRODUCTS} from './types';
 
     export function fetchProducts(inputId){ 
         return function (dispatch){
-            return fetch('https://FecTbayCarousel-env.kqupyc8962.us-east-2.elasticbeanstalk.com/api',{
+            return fetch('http://FecTbayCarousel-env.kqupyc8962.us-east-2.elasticbeanstalk.com/api',{
                 headers: {"Content-Type" : "application/json"},
                 method: "POST", 
                 body: JSON.stringify({
