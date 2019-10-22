@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path')
 const app = express();
+const cors = require('cors')
 const port = 3009;
 const connection = require("./database/db");
 const SPONSER_DIST_DIR = path.join(__dirname, '../sponser-dist');
@@ -14,7 +15,7 @@ const mockResponse = {
 // app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(express.static(SPONSER_DIST_DIR));
-
+app.use(cors())
 
 app.post('/api', (req, res) => {
     let lowerId = parseInt(req.body.id) - 7;
