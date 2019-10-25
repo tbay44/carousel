@@ -90,3 +90,25 @@
     color: gray;
 }
 
+.Footer-Container{
+    margin: 30px 0;
+    background-color: white;
+    height: 200px;
+    width: 100%;
+}
+
+.Footer-Item-List{
+    display: grid;
+    font-size: 10px;
+    color: darkslategrey;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-copyrights {
+    color: black;
+    font-size: 10px;
+    margin: auto;
+    text-align: center;
+
+}
+

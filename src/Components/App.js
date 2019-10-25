@@ -1,5 +1,6 @@
 import React from "react";
 import Product from '../Components/Product'
+import Footer from './Footer'
 import { fetchProducts } from '../Actions/productsActions';
 import { incrementButton, decrementButton, initializeButton } from '../Actions/carouselActions';
 import { connect } from 'react-redux';
@@ -82,6 +83,7 @@ class App extends React.Component {
               (event) => this.props.incrementButton(this.props.sponserCarouselPageNum)
             }><FontAwesomeIcon icon={faChevronRight} className="button-chevron" ></FontAwesomeIcon></button>
         </div>
+        <Footer />
         </React.Fragment>
       
     )
