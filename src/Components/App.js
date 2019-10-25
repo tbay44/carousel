@@ -83,6 +83,7 @@ class App extends React.Component {
               (event) => this.props.incrementButton(this.props.sponserCarouselPageNum)
             }><FontAwesomeIcon icon={faChevronRight} className="button-chevron" ></FontAwesomeIcon></button>
         </div>
+        <div className="joke"></div>
         <Footer />
         </React.Fragment>
       
