@@ -1,8 +1,8 @@
 
 
 .Carousel-Page{
+    margin: 0 10%;
     font-size: 17px;
-    margin: 0px;
     padding: 24px 16px 0px;
     background-color: white;
     color: black;
@@ -15,6 +15,7 @@
 }
 
 .Carousel-Container{
+    margin: 0 10%;
     position: relative;
     display: grid;
     grid-template-columns: 5fr;
@@ -92,9 +93,9 @@
 }
 
 .Footer-Container{
-    margin: 30px 0;
+    margin: 0 30px 0 0;
     background-color: white;
-    height: 200px;
+    height: 100px;
     width: 100%;
 }
 
@@ -115,7 +116,7 @@
 
 .joke{
     background-color: #f8f8f8;
-    height: 200px;
+    height: 10em;
     width: 100%
 }
 
