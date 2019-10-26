@@ -10,7 +10,7 @@ const Product = (props) => {
         }
     }>
         <img src={props.prime_pic}  />
-        <p>Product Name: {props.product_name}</p>
+        <p>{props.product_name}</p>
         <p className="Carousel-Price">{props.price}</p>
         <p className="Carousel-Shipping">{props.shipping === true? "Free Shipping" : "Not Free Shipping"} </p>
     </div>
