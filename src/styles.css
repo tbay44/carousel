@@ -97,13 +97,14 @@
     background-color: white;
     height: 100px;
     width: 100%;
+    text-align: center;
 }
 
 .Footer-Item-List{
     display: grid;
     font-size: 10px;
     color: darkslategrey;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 
 .footer-copyrights {
