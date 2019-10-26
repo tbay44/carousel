@@ -54,6 +54,7 @@ class App extends React.Component {
         carouselProducts = this.props.pageThree
       }
 
+      
       return carouselProducts.map(item => {
         return <Product
           key={item.id}

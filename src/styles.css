@@ -18,6 +18,7 @@
     position: relative;
     display: grid;
     grid-template-columns: 5fr;
+    height: 20em;
     background-color: white;
     color: black
 }
