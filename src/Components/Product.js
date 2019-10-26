@@ -3,7 +3,7 @@ import {uniqueId} from '../Events/Events'
 
 const Product = (props) => {
     return (
-    <div  className="Carousel-Product" onClick={
+    <div href="#search-bar-root" className="Carousel-Product" onClick={
         (event) => {
             window.uniqueId = props.product_id
             window.dispatchEvent(uniqueId);

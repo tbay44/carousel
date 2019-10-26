@@ -14,7 +14,6 @@ class App extends React.Component {
     componentDidMount() {
 
         window.uniqueId = 0
-        window.scrollTo(0, 0)
         this.props.fetchProducts(window.uniqueId)
         this.props.initializeButton()
 
